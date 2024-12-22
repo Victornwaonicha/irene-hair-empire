@@ -1,0 +1,92 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #5b216f;
+}
+
+/* Header Styles */
+header {
+    background: #6c5ce7; /* Change to your brand color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Product List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 10px;
+    font-size: 1rem;
+}
+
+/* Pricing Styles */
+p.price {
+    font-weight: bold;
+    color: #6c5ce7; /* Change to your brand color */
+}
+
+p.stock {
+    font-style: italic;
+    color: #777;
+}
+
+/* Footer Styles */
+footer {
+    background: #6c5ce7; /* Change to your brand color */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Space above the footer */
+}
+
+footer p {
+    margin: 0;
+}
